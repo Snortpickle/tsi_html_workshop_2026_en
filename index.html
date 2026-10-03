@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET and POST examples</title>
+  </head>
+  <body>
+    <main>
+      <h1>GET and POST examples</h1>
+
+      <section>
+        <h2>GET request</h2>
+        <p>A link sends a GET request when it is opened.</p>
+        <a href="https://httpbin.org/get?workshop=html">
+          Send a GET request
+        </a>
+      </section>
+
+      <section>
+        <h2>POST request</h2>
+        <p>Use a form when you need to send a POST request.</p>
+        <form action="https://httpbin.org/post" method="post">
+          <input type="hidden" name="workshop" value="html">
+          <button type="submit">Send a POST request</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
